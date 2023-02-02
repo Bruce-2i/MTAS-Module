@@ -1,0 +1,19 @@
+<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyMTASTool"
+             xmlns:C_Text="clr-namespace:MTAS.Core.Windows.Controls.C_Text;assembly=MTAS" 
+             xmlns:C_Boxes="clr-namespace:MTAS.Core.Windows.Controls.C_Boxes;assembly=MTAS" 
+             xmlns:C_Suite="clr-namespace:MTAS.Core.Windows.Controls.C_Suite;assembly=MTAS" 
+
+             xmlns:C_Buttons="clr-namespace:MTAS.Core.Windows.Controls.C_Buttons;assembly=MTAS"
+             x:Class="MyMTASTool.MyTool" 
+
+             mc:Ignorable="d" 
+             MinWidth="741" MinHeight="564">
+    <Grid>
+        <C_Text:Header1 Text="This is a custom Tool Module" HorizontalAlignment="Center" VerticalAlignment="Center" Width="534"/>
+    </Grid>
+</UserControl>

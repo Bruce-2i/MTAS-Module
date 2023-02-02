@@ -1,0 +1,21 @@
+/// This is the Information file used to configure the module, above you can fill out the details relating
+/// to your Tool. This information it crucial in configuring your Tool to work within the MTAS.
+
+/// ABOUT INFO.JSON
+
+/// UID: A custom and unique identifier (1-10 reserved).
+/// Name: A user-friendly title to give your Tool.
+/// UIWindow: This is the name of the Main UserControl to be displayed within the MTAS.
+/// Setup: The C# classname that is executed before the Tool is used.
+/// Desc: A brief, one-liner describing the Tool.
+/// LearnMoreURL: A URL pointing to where you can read/learn more about this Tool.
+/// IconURL: A URL pointing to a .png that is displayed as the icon for this Tool.
+{
+  "UID": 1,
+  "Name": "My MTAS Tool",
+  "UIWindow": "MyTool",
+  "Setup": "Setup",
+  "Desc": "A template for a tool module used within the MTAS.",
+  "LearnMoreURL": "https://2itesting.com",
+  "IconURL": "https://www.wearegecko.co.uk/media/51251/2i-logo.png"
+}
